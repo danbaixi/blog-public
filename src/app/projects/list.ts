@@ -11,58 +11,21 @@ interface Project {
 
 export const projects: Project[] = [
 	{
-		name: 'Pixel Motion',
-		year: 2025,
-		description: '网页端像素绘画工具，支持组件化画布，多画布同时绘画，色彩变量',
-		image: 'https://pixel-motion.yysuni.com/favicon.svg',
-		url: 'https://pixel-motion.yysuni.com/',
-		tags: ['像素画', 'React', 'Figma', '阮周刊']
+		name: '云小智',
+		year: 2017,
+		description: '专属白云学院的教务查询小程序',
+		image: 'https://yunxiaozhi.cn/logo.png',
+		url: 'https://yunxiaozhi.cn',
+		github: 'https://github.com/danbaixi/yunxiaozhi',
+		tags: ['小程序', '开源', '课表', '校园']
 	},
 	{
-		name: 'Path Motion',
-		year: 2025,
-		description: '在线 svg path 工具，针对 path 绘制、压缩、运动等功能',
-		image: 'https://path-motion.yysuni.com/favicon.svg',
-		url: 'https://path-motion.yysuni.com/canvas',
-		tags: ['SVG', 'Path', 'Motion', '阮周刊'],
-		github: 'https://github.com/YYsuni/path-motion'
-	},
-	{
-		name: 'JSON Viewer',
+		name: '云小慧',
 		year: 2023,
-		description:
-			'React 的 JSON 查看/编辑组件，组件的实现方式依赖于 html 原生逻辑，比较轻量化。第二个用心的组件，学习了前辈的包装方式，介绍方式，网站样式。用户也慢慢多了起来。',
-		image: 'https://jv.yysuni.com/favicon.svg',
-		url: 'https://jv.yysuni.com/',
-		tags: ['React', 'JSON', 'Viewer', '阮周刊'],
-		github: 'https://github.com/YYsuni/react18-json-view',
-		npm: 'https://www.npmjs.com/package/react18-json-view'
-	},
-	{
-		name: '第一版 Blog 网站',
-		year: 2023,
-		description: '最开始是觉得掘金这种网站写文章挺好的。后面还是想写一个自己网站，体现自己的风格。MDX 还可以自己写组件到 blog，直接交互，多好。。。',
-		image: 'https://blog-archive.yysuni.com/favicons/android-chrome-512x512.png',
-		url: 'https://blog-archive.yysuni.com/',
-		tags: ['Next.js', 'MDX']
-	},
-	{
-		name: 'Blockies',
-		year: 2023,
-		description: ' Blockies React组件，SVG 实现，用于生成区块链地址的图标。这是我的第一个有人用的组件，虽然人不多',
-		image: '/images/blockies.svg',
-		url: 'https://blockies-react-svg.vercel.app/',
-		tags: ['React', 'SVG', 'Blockies'],
-		github: 'https://github.com/YYsuni/blockies-react-svg',
-		npm: 'https://www.npmjs.com/package/blockies-react-svg'
-	},
-	{
-		name: 'Vue3 组件库',
-		year: 2021,
-		description:
-			'比较让人怀念的一个组件库了，那个时候每个前端程序员都想做一套自己的组件库，我也是。写出来的时候特别让自己开心，觉得好看，舒服。那时也第一次学会免费的 github/gitee pages 部署页面，但也倒腾半天，现在用 vercel 重新上线放着吧。',
-		image: '/images/vue-kit.webp',
-		url: 'http://archive-suni.vercel.app/#/',
-		tags: ['Vue', 'Library']
+		description: '校园课表微信小程序全栈项目课程Node+原生小程序(含UI设计稿)',
+		image: '/images/yunxiaohui.png',
+		url: 'https://www.bilibili.com/video/BV1go4y1M7Fa',
+		github: 'https://github.com/danbaixi/yunxiaohui',
+		tags: ['免费开发课程', 'bilibili', '开源', '校园']
 	}
 ]
