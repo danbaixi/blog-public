@@ -32,8 +32,8 @@ export default function Page() {
 		<div className='flex flex-col items-center justify-center px-6 pt-32 pb-12'>
 			<div className='w-full max-w-[800px]'>
 				<motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: INIT_DELAY }} className='mb-12 text-center'>
-					<h1 className='mb-4 text-4xl font-bold'>关于本站</h1>
-					<p className='text-secondary text-lg'>一个基于 Github 的现代化博客系统</p>
+					<h1 className='mb-4 text-4xl font-bold'>关于我</h1>
+					<p className='text-secondary text-lg'>前端开发工程师，懂一些后端，懂一些设计。</p>
 				</motion.div>
 
 				<div className='grid gap-6 md:grid-cols-2'>
