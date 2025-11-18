@@ -26,7 +26,7 @@ export default function Home() {
 			{!maxSM && <ShareCard />}
 			<AritcleCard />
 			{!maxSM && <WriteButton />}
-			<LikePosition />
+			{/* <LikePosition /> */}
 		</div>
 	)
 }

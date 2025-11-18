@@ -7,24 +7,24 @@ import LikeButton from '@/components/like-button'
 export default function Page() {
 	const features = [
 		{
-			title: 'Github 存储',
-			description: '网站基于 Github 仓库完全存储，所有内容版本可控',
-			icon: '📦'
+			title: '懂点前端',
+			description: '熟练VUE、React、小程序、UniAPP开发',
+			icon: '👨‍💻'
 		},
 		{
-			title: '无服务器',
-			description: '无后端，无 serverless function，纯静态站点',
+			title: '懂点后端',
+			description: 'NODE.JS、PHP、甚至会点GOLANG',
+			icon: '🔧'
+		},
+		{
+			title: '懂点设计',
+			description: '可以设计UI，但不负责切图！',
+			icon: '🎨'
+		},
+		{
+			title: '持续进步',
+			description: '技术在迭代，持续学习中',
 			icon: '🚀'
-		},
-		{
-			title: 'UI 编辑',
-			description: '文章通过可视化 UI 直接编辑并提交到 Github 仓库',
-			icon: '✏️'
-		},
-		{
-			title: '开放协作',
-			description: '所有用户都可以编辑，提交需要 Owner 的 Private Key',
-			icon: '🔑'
 		}
 	]
 
@@ -32,7 +32,8 @@ export default function Page() {
 		<div className='flex flex-col items-center justify-center px-6 pt-32 pb-12'>
 			<div className='w-full max-w-[800px]'>
 				<motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: INIT_DELAY }} className='mb-12 text-center'>
-					<h1 className='mb-4 text-4xl font-bold'>关于我</h1>
+					<h1 className='mb-4 text-4xl font-bold'>蛋白溪 Danbaixi</h1>
+					<p className='text-secondary text-lg'>95后，男，居住东莞，求大佬们把我挖走~</p>
 					<p className='text-secondary text-lg'>前端开发工程师，懂一些后端，懂一些设计。</p>
 				</motion.div>
 
@@ -56,10 +57,10 @@ export default function Page() {
 						initial={{ opacity: 0, y: 20 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ delay: INIT_DELAY + ANIMATION_DELAY * 5 }}
-						className='card relative p-6'>
+						className='card w-full relative p-6'>
 						<h3 className='mb-3 text-xl font-semibold'>技术栈</h3>
 						<div className='flex flex-wrap gap-2'>
-							{['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Motion', 'Github API'].map(tech => (
+							{['JavaScript', 'TypeScript', 'Vue', 'React', 'UniAPP', 'NodeJS', 'PHP'].map(tech => (
 								<span key={tech} className='text-secondary rounded-lg bg-white/50 px-3 py-1.5 text-sm'>
 									{tech}
 								</span>
@@ -67,9 +68,9 @@ export default function Page() {
 						</div>
 					</motion.div>
 
-					<div className='mx-auto' title='期待开源？'>
+					{/* <div className='mx-auto' title='期待开源？'>
 						<LikeButton slug='open-source' />
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>

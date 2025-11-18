@@ -53,7 +53,7 @@ export function BlogSidebar({ cover, summary, toc, slug }: BlogSidebarProps) {
 
 			<BlogToc toc={toc} delay={INIT_DELAY + ANIMATION_DELAY * 3} />
 
-			<LikeButton slug={slug} delay={(INIT_DELAY + ANIMATION_DELAY * 4) * 1000} />
+			{/* <LikeButton slug={slug} delay={(INIT_DELAY + ANIMATION_DELAY * 4) * 1000} /> */}
 		</motion.div>
 	)
 }
